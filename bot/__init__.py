@@ -135,3 +135,4 @@ TL_FILE_TYPES = (
     # "venue",
     "sticker",
     "text"
+    )
