@@ -84,7 +84,7 @@ GIT_REPO_LINK = "https://t.me/mcdelallsupport"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
     "I am a bot that can delete all your channel or supergroup messages.<s>all</s> "
-    "Add Me To The Channel/Supergroup As Admin WITH ALL GIVEN PERMISSIONS LISTED HERE"\n"➤ Delete Messages "\n"➤ Invite Users Via Link "\n"➤ Add New Admins . "
+    "Add Me To The Channel/Supergroup As Admin WITH ALL GIVEN PERMISSIONS LISTED HERE \n➤ Delete Messages \n➤ Invite Users Via Link \n➤ Add New Admins.\n send /delall if you want all the messages to be deleted \n- send as reply to a message /delfrom (beginning point) & /delto (end point) before using /delsel if you want to delete that & all subsequent messages\n "
     "\n\n"
     f"Support channel 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
