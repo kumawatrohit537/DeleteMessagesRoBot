@@ -79,14 +79,17 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
-GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
+REQD_PERMISSIONS = "https://t.me/DEV_DelallBot_Tutorial"
+GIT_REPO_LINK = "https://t.me/mcdelallsupport"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
-    "Welcome to our Bot 🤗"\n))
-
-
-
+    "I am a bot that can delete all your channel or supergroup messages.<s>all</s> "
+    "Add Me To The Channel/Supergroup As Admin WITH ALL GIVEN PERMISSIONS LISTED HERE"\n"➤ Delete Messages "\n"➤ Invite Users Via Link "\n"➤ Add New Admins . "
+    "\n\n"
+    f"Support channel 👉 {REQD_PERMISSIONS} 👈"
+    "\n\n"
+    f"In case of issues, contact 👉 {GIT_REPO_LINK} 👈"
+))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
 BEGINNING_DEL_ALL_MESSAGE = get_config("BEGINNING_DEL_ALL_MESSAGE", (
@@ -132,4 +135,3 @@ TL_FILE_TYPES = (
     # "venue",
     "sticker",
     "text"
-)
